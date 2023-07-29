@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #561717;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+svg path {
+    stroke-width: 1;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    fill: #631823;
+    stroke: #631823;
+    transition: fill 0.3s ease;
+}
+
+svg path:hover {
+    fill: #631823;
+    stroke: #631823;
+    stroke-width: 2;
+}
+
+.selectedCountry {
+    fill: #891F33;
+    stroke: #EBCD97;
+    stroke-width: 2;
+}
+.selectedCountry:hover {
+    fill:#631823;
+    stroke: #EBCD97;
+    stroke-width: 2;
+}
